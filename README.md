@@ -23,7 +23,7 @@
 docker-compose up -d
 ```
 
-Server will be available on http://localhost:3000
+Server will be available on http://localhost:8000
 
 ## Logs
 
@@ -35,7 +35,7 @@ docker-compose logs -f web
 
 To document endpoints i used Swagger with @nestjs/swagger
 
-Available on: http://localhost:3000/api/docs
+Available on: http://localhost:8000/api/docs
 
 ## Main Points
 
